@@ -12,6 +12,16 @@ ul {
 
 h1, h2 { margin: 0; }
 
+a, a:visited {
+    text-decoration: underline;
+    color: black;
+}
+
+a:hover {
+    color: white;
+    background-color: #823531;
+}
+
 .content {
     float: left;
     width: 802px;
@@ -19,6 +29,16 @@ h1, h2 { margin: 0; }
     background-color: #D2A977;
     border-top-left-radius: 7px;
     border-right: 30px solid #372C27;
+    line-height: 1.75em;
+}
+
+.content article {
+    margin: 1em 1.5em;
+    background-color: #F9EFE9;
+    padding: 2em;
+    display: block;
+    word-wrap: normal;
+    border-radius: 4px;
 }
 
 #page-wrap { 
