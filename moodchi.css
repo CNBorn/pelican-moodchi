@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Sans-Serif;
+    font-size: 18px;
 }
 
 ul {
@@ -13,8 +14,11 @@ h1, h2 { margin: 0; }
 
 .content {
     float: left;
-    width: 798px;
+    width: 802px;
     height: 2400px;
+    background-color: #D2A977;
+    border-top-left-radius: 7px;
+    border-right: 30px solid #372C27;
 }
 
 #page-wrap { 
@@ -24,9 +28,12 @@ h1, h2 { margin: 0; }
 }
 
 #sidebar { 
-  width: 400px; 
   position: fixed; 
-  margin-left: 800px; 
+  margin-left: 830px; 
+  background-color: #CF9E69;
+  height: 100%;
+  border-top-right-radius: 7px;
+
 }
 
 .mood-box {
@@ -35,9 +42,9 @@ h1, h2 { margin: 0; }
     background-color: #DBC7A3;
     color: black;
     padding: 1em;
-    width: 400px;
+    width: 350px;
     text-align: right;
-    margin: 1em 0.5em;
+    margin: 1em 1.5em;
 }
 
 .mood-box .mood-header-title {
