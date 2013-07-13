@@ -11,6 +11,24 @@ ul {
 
 h1, h2 { margin: 0; }
 
+.content {
+    float: left;
+    width: 798px;
+    height: 2400px;
+}
+
+#page-wrap { 
+  width: 1200px; 
+  margin: 15px auto; 
+  position: relative; 
+}
+
+#sidebar { 
+  width: 400px; 
+  position: fixed; 
+  margin-left: 800px; 
+}
+
 .mood-box {
     display: block;
     border-radius: 3px;
