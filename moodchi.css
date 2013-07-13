@@ -4,6 +4,11 @@ body {
     font-family: Sans-Serif;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 h1, h2 { margin: 0; }
 
 .mood-box {
@@ -12,7 +17,9 @@ h1, h2 { margin: 0; }
     background-color: #DBC7A3;
     color: black;
     padding: 1em;
-    width: 90%;
+    width: 400px;
+    text-align: right;
+    margin: 1em 0.5em;
 }
 
 .mood-box .mood-header-title {
@@ -20,7 +27,6 @@ h1, h2 { margin: 0; }
     border-bottom: 0.75em solid #823531;
     border-radius: 3px;
 }
-
 
 .mood-box .mood-header-title h1 {
     font-size: 4em;
@@ -43,4 +49,20 @@ h1, h2 { margin: 0; }
     font-size: 1.5em;
     border-bottom: 0.75em solid #823531;
     margin-bottom: 0.25em;
+}
+
+.mood-box ul li {
+    margin: 0.5em 0em;
+    display: block;
+    width: 100%;
+}
+
+.mood-box ul li a, .mood-box ul li a:visited {
+    text-decoration: underline;
+    color: black;
+}
+
+.mood-box ul li a:hover {
+    color: white;
+    background-color: #823531;
 }
